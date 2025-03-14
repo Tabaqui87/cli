@@ -20,3 +20,5 @@ E' possibile sovrascrivere i parametri di default passando coppie chiave-valore 
 ```
 java -jar ./cli.jar tabaqui.port=9998
 ```
+## Note
+Scegliendo di utilizzare **remote-jvm** come JVM da monitorare, sarà possibile collegarsi anche tramite **jconsole** e modificare a piacimento l'ammontare di memoria heap utilizzata tramite l'MBean **it.tabaqui:type=Memory,name=HeapManager**.
